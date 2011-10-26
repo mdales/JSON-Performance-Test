@@ -13,6 +13,14 @@
 		4CA30B55145806CC00D24322 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4CA30B53145806CC00D24322 /* Credits.rtf */; };
 		4CA30B58145806CC00D24322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B57145806CC00D24322 /* AppDelegate.m */; };
 		4CA30B5B145806CC00D24322 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA30B59145806CC00D24322 /* MainMenu.xib */; };
+		4CA30B661458070C00D24322 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B651458070C00D24322 /* JSONKit.m */; };
+		4CA30B741458076000D24322 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B691458076000D24322 /* NSObject+SBJSON.m */; };
+		4CA30B751458076000D24322 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B6B1458076000D24322 /* NSString+SBJSON.m */; };
+		4CA30B761458076000D24322 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B6D1458076000D24322 /* SBJSON.m */; };
+		4CA30B771458076000D24322 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B6F1458076000D24322 /* SBJsonBase.m */; };
+		4CA30B781458076000D24322 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B711458076000D24322 /* SBJsonParser.m */; };
+		4CA30B791458076000D24322 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B731458076000D24322 /* SBJsonWriter.m */; };
+		4CA30B7C14580B7000D24322 /* TestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA30B7B14580B7000D24322 /* TestOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +29,31 @@
 		4CA30B47145806CC00D24322 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4CA30B48145806CC00D24322 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4CA30B49145806CC00D24322 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4CA30B4C145806CC00D24322 /* JSON Test-Info.plist */ = {isa = PBXFileReference; path = "JSON Test-Info.plist"; sourceTree = "<group>"; };
+		4CA30B4C145806CC00D24322 /* JSON Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSON Test-Info.plist"; sourceTree = "<group>"; };
 		4CA30B4E145806CC00D24322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CA30B50145806CC00D24322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CA30B52145806CC00D24322 /* JSON Test-Prefix.pch */ = {isa = PBXFileReference; path = "JSON Test-Prefix.pch"; sourceTree = "<group>"; };
+		4CA30B52145806CC00D24322 /* JSON Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSON Test-Prefix.pch"; sourceTree = "<group>"; };
 		4CA30B54145806CC00D24322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4CA30B56145806CC00D24322 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CA30B56145806CC00D24322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CA30B57145806CC00D24322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4CA30B5A145806CC00D24322 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4CA30B641458070C00D24322 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4CA30B651458070C00D24322 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4CA30B671458076000D24322 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		4CA30B681458076000D24322 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		4CA30B691458076000D24322 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		4CA30B6A1458076000D24322 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		4CA30B6B1458076000D24322 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		4CA30B6C1458076000D24322 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		4CA30B6D1458076000D24322 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		4CA30B6E1458076000D24322 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		4CA30B6F1458076000D24322 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		4CA30B701458076000D24322 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		4CA30B711458076000D24322 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		4CA30B721458076000D24322 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		4CA30B731458076000D24322 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		4CA30B7A14580B7000D24322 /* TestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOperation.h; sourceTree = "<group>"; };
+		4CA30B7B14580B7000D24322 /* TestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +107,11 @@
 		4CA30B4A145806CC00D24322 /* JSON Test */ = {
 			isa = PBXGroup;
 			children = (
+				4CA30B61145806D700D24322 /* External */,
 				4CA30B56145806CC00D24322 /* AppDelegate.h */,
 				4CA30B57145806CC00D24322 /* AppDelegate.m */,
+				4CA30B7A14580B7000D24322 /* TestOperation.h */,
+				4CA30B7B14580B7000D24322 /* TestOperation.m */,
 				4CA30B59145806CC00D24322 /* MainMenu.xib */,
 				4CA30B4B145806CC00D24322 /* Supporting Files */,
 			);
@@ -100,6 +128,44 @@
 				4CA30B53145806CC00D24322 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CA30B61145806D700D24322 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4CA30B63145806E700D24322 /* JSONKit */,
+				4CA30B62145806E000D24322 /* SBJSON */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		4CA30B62145806E000D24322 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				4CA30B671458076000D24322 /* JSON.h */,
+				4CA30B681458076000D24322 /* NSObject+SBJSON.h */,
+				4CA30B691458076000D24322 /* NSObject+SBJSON.m */,
+				4CA30B6A1458076000D24322 /* NSString+SBJSON.h */,
+				4CA30B6B1458076000D24322 /* NSString+SBJSON.m */,
+				4CA30B6C1458076000D24322 /* SBJSON.h */,
+				4CA30B6D1458076000D24322 /* SBJSON.m */,
+				4CA30B6E1458076000D24322 /* SBJsonBase.h */,
+				4CA30B6F1458076000D24322 /* SBJsonBase.m */,
+				4CA30B701458076000D24322 /* SBJsonParser.h */,
+				4CA30B711458076000D24322 /* SBJsonParser.m */,
+				4CA30B721458076000D24322 /* SBJsonWriter.h */,
+				4CA30B731458076000D24322 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		4CA30B63145806E700D24322 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4CA30B641458070C00D24322 /* JSONKit.h */,
+				4CA30B651458070C00D24322 /* JSONKit.m */,
+			);
+			name = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +233,14 @@
 			files = (
 				4CA30B51145806CC00D24322 /* main.m in Sources */,
 				4CA30B58145806CC00D24322 /* AppDelegate.m in Sources */,
+				4CA30B661458070C00D24322 /* JSONKit.m in Sources */,
+				4CA30B741458076000D24322 /* NSObject+SBJSON.m in Sources */,
+				4CA30B751458076000D24322 /* NSString+SBJSON.m in Sources */,
+				4CA30B761458076000D24322 /* SBJSON.m in Sources */,
+				4CA30B771458076000D24322 /* SBJsonBase.m in Sources */,
+				4CA30B781458076000D24322 /* SBJsonParser.m in Sources */,
+				4CA30B791458076000D24322 /* SBJsonWriter.m in Sources */,
+				4CA30B7C14580B7000D24322 /* TestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +324,7 @@
 		4CA30B5F145806CC00D24322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSON Test/JSON Test-Prefix.pch";
 				INFOPLIST_FILE = "JSON Test/JSON Test-Info.plist";
@@ -261,6 +336,7 @@
 		4CA30B60145806CC00D24322 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSON Test/JSON Test-Prefix.pch";
 				INFOPLIST_FILE = "JSON Test/JSON Test-Info.plist";
