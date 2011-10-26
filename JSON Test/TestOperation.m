@@ -93,7 +93,6 @@
     }
     finish = [NSDate date];
     delta = [finish timeIntervalSinceDate: start];
-    NSLog(@"%@ -> %@ = %g or %@", start,finish, delta, [NSNumber numberWithDouble: delta / (float)LOOP_COUNT]);
     
     [appDelegate performSelectorOnMainThread: @selector(setTimeForJSONKitEncode:) 
                                   withObject: [NSNumber numberWithDouble: delta / (float)LOOP_COUNT]
